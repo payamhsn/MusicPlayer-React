@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/app.scss";
 
 //Import Components
 import Player from "./Components/Player";
