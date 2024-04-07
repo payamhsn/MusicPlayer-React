@@ -9,6 +9,10 @@
   padding: 2rem;
   overflow: scroll;
   background: white;
+  transform: translateX(-100%);
+  transition: all 0.5s ease;
+  opacity: 0;
+
   h2 {
     padding: 2rem;
   }
@@ -19,6 +23,8 @@
   align-items: center;
   padding: 1rem 2rem 1rem 2rem;
   cursor: pointer;
+  transition: all 0.75s ease-out;
+
   img {
     width: 30%;
   }
@@ -58,4 +64,9 @@
 
 .selected {
   background: rgb(194, 208, 253);
+}
+
+.active-library {
+  transform: translateX(0%);
+  opacity: 1;
 }
